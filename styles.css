@@ -1,0 +1,87 @@
+.container {
+  width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.likes {
+  font-weight: bold;
+  color: #333;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.caption-text {
+  margin-left: 10px;
+  color: #333;
+}
+
+.fa-bookmark {
+  margin-left: 500px;
+}
+
+.likebox {
+  display: flex;
+  align-items: left !important;
+  justify-content: flex-start !important;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  flex-grow: 0;
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
